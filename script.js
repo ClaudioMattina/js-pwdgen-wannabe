@@ -8,4 +8,6 @@ console.log(secondName);
 const color = prompt("Qual'è il tuo colore preferito?");
 console.log(color);
 
+
+document.getElementById("password").innerHTML = firstName + secondName + color;
 /* let password = +++ */
